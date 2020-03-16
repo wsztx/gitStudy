@@ -1,10 +1,35 @@
+volatile
+1、volatile是什么？
+2、描述JMM内存模型的可见性、原子性、有序性？
+3、volatile的作用描述（内存的可见性、禁止指令重排、不保证原子性）？
+4、如何解决volatile的原子性？
+5、单例模式下为什么使用volatile？
+
+CAS比较并交换
+1、CAS是什么？
+2、CAS底层原理？谈谈对UnSafe的理解？
+3、CAS的缺点？
+4、描述ABA问题？
+5、理解原子引用、带时间戳（版本号）的原子引用？
+6、解决ABA问题？
+
 Spring AOP
 1、什么是AOP，使用AOP有什么好处？
 2、spring aop的实现方式？
 3、静态代理原理？
-4、什么是反射，反射的优点，反射类的？
-5、JDK动态代理和CGLIB动态代理原理？
-6、什么时候使用JDK动态代理，什么时候使用CGLIB动态代理？
-7、关注点和横切关注点的区别？
-8、Spring中有哪些不同的通知类型？
-9、如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？
+4、JDK动态代理和CGLIB动态代理原理？
+5、什么时候使用JDK动态代理，什么时候使用CGLIB动态代理？
+6、关注点和横切关注点的区别？
+7、Spring中有哪些不同的通知类型？
+8、如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？
+
+反射
+1、什么是反射，反射的优点，反射类的？
+
+Spring IOC
+
+Spring
+
+Spring MVC
+
+
