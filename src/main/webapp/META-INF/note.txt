@@ -1,0 +1,10 @@
+Spring AOP
+1、什么是AOP，使用AOP有什么好处？
+2、spring aop的实现方式？
+3、静态代理原理？
+4、什么是反射，反射的优点，反射类的？
+5、JDK动态代理和CGLIB动态代理原理？
+6、什么时候使用JDK动态代理，什么时候使用CGLIB动态代理？
+7、关注点和横切关注点的区别？
+8、Spring中有哪些不同的通知类型？
+9、如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？
