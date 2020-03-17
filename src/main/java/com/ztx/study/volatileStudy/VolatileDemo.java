@@ -11,7 +11,7 @@ class MyWork{
 public class VolatileDemo {
 
 	public static void main(String args[]){
-		MyWork work = new MyWork();
+		final MyWork work = new MyWork();
 		
 		Thread thread = new Thread("AAA"){
 			public void run(){
