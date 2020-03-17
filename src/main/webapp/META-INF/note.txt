@@ -24,12 +24,42 @@ Spring AOP
 8、如何理解AOP中的连接点（Joinpoint）、切点（Pointcut）、增强（Advice）、引介（Introduction）、织入（Weaving）、切面（Aspect）这些概念？
 
 反射
-1、什么是反射，反射的优点，反射类的？
-
-Spring IOC
+1、什么是反射，哪些地方用到了反射？反射就是程序运行期间JVM会对任意一个类洞悉它的属性和方法，对任意一个对象都能够访问它的属性和方法。依靠此机制，可以动态的创建一个类的对象和调用对象的方法。
+2、反射和new的区别？
+3、如何获取Class对象？
+4、通过Class对象获取类的构造方法、类的方法、使用class对象创建对象？
 
 Spring
+1、Spring是什么？优点？由哪几个模块组成？配置方式？
+2、Spring的IoC理解？注入方式？
+3、BeanFactory和ApplicationContext有什么区别？
+4、请解释Spring Bean的生命周期？
+5、解释Spring支持的几种bean的作用域？
+6、Spring框架中的单例Beans是线程安全的么？
+7、Spring如何处理线程并发问题？
+8、Spring基于xml注入bean的几种方式？
+9、Spring的自动装配？
+10、Spring 框架中都用到了哪些设计模式？
+11、Spring事务的实现方式和实现原理？事物的隔离级别？MYSQL和ORACLE默认级别？传播属性？
+12、Spring框架中有哪些不同类型的事件？
 
 Spring MVC
+
+Struts2
+
+Spring Boot
+
+Hibernate
+
+Mybatis
+
+Redis
+
+MQ
+
+
+
+
+
 
 
