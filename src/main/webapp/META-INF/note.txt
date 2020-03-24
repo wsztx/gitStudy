@@ -55,8 +55,15 @@
 19、ThreadLocal作用？工作原理？
 
 JVM
-
-GC
+1、JVM内存结构？
+2、垃圾回收算法（引用计数、复制、标记-清除、标记-整理）？
+3、JVM垃圾回收的时候如何确定垃圾？什么是GC Roots？
+4、内存分配和回收策略？
+5、JVM调优和参数配置？（标配参数、X参数、XX参数）
+6、-Xms、-Xmx和-Xss是属于什么类型参数？
+7、jinfo举例，如何查看当前运行程序的配置？
+8、如何查看jvm中的各种参数以及默认值？-XX:+PrintFlagsInitial，-XX:+PrintFlagsFinal，-XX:+PrintCommandLineFlags  =和:=区别
+9、
 
 volatile
 1、volatile是什么？
