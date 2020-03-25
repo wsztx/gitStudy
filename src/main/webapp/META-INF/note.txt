@@ -33,6 +33,14 @@
 7、HashMap是否线程安全？如何实现线程安全？
 8、Collections.synchronizedMap线程安全的map的实现原理？
 
+HashMap
+1、hashcode是什么？
+2、hashcode和equals的区别？
+3、为什么要无符号右移16位后做异或运算？
+4、使用异或运算的原因？
+5、为什么槽位数必须使用2^n？
+6、
+
 多线程
 1、线程各种状态转换？
 2、什么是公平锁和非公平锁？synchronized是什么锁？
@@ -60,10 +68,15 @@ JVM
 3、JVM垃圾回收的时候如何确定垃圾？什么是GC Roots？
 4、内存分配和回收策略？
 5、JVM调优和参数配置？（标配参数、X参数、XX参数）
-6、-Xms、-Xmx和-Xss是属于什么类型参数？
+6、-Xms、-Xmx、-Xss、-Xmn是属于什么类型参数？
 7、jinfo举例，如何查看当前运行程序的配置？
 8、如何查看jvm中的各种参数以及默认值？-XX:+PrintFlagsInitial，-XX:+PrintFlagsFinal，-XX:+PrintCommandLineFlags  =和:=区别
-9、
+9、常用参数解释？（-Xms、-Xmx、-Xss、-Xmn、-XX:MetaspaceSize、-XX:+PrintGCDetails(GC日志如何查看？)、-XX:SurvivorRatio、-XX:NewRatio、-XX:MaxTenuringThreshold）
+10、强引用、软引用、弱引用、虚引用是什么？分别在什么场景下使用？
+11、WeakHashMap解释？
+12、
+
+数据结构
 
 volatile
 1、volatile是什么？
