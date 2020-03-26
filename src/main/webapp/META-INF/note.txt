@@ -74,7 +74,19 @@ JVM
 9、常用参数解释？（-Xms、-Xmx、-Xss、-Xmn、-XX:MetaspaceSize、-XX:+PrintGCDetails(GC日志如何查看？)、-XX:SurvivorRatio、-XX:NewRatio、-XX:MaxTenuringThreshold）
 10、强引用、软引用、弱引用、虚引用是什么？分别在什么场景下使用？
 11、WeakHashMap解释？
-12、
+12、OOM异常解释？
+    java.lang.StackOverflowError
+	java.lang.OutOfMemoryError：Java heap space
+	java.lang.OutOfMemoryError：GC overhead limit exceeded
+	java.lang.OutOfMemoryError：Direct buffer memory
+	java.lang.OutOfMemoryError：unable to create new native thread
+	java.lang.OutOfMemoryError：Metaspace
+13、垃圾收集器理解？（Serial、ParNew、Parallel Scavenge、CMS、Serial Old、Parallel Old、G1）
+14、GC日志里的DefNew、Tenured、ParNew、PSYoungGen、ParOldGen
+15、server和client模式分别是什么意思？
+15、CMS并发标记清除的4个步骤？优缺点？
+16、生产环境中如何选择垃圾收集器？
+17、G1收集器解释？底层原理？
 
 数据结构
 
