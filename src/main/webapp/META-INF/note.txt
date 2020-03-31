@@ -213,7 +213,7 @@ Mybatis
 22、Mapper编写有哪几种方式？
 23、简述Mybatis的插件运行原理，以及如何编写一个插件？ 
 
-Redis
+缓存
 
 MQ
 
