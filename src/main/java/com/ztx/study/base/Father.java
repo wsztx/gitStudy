@@ -1,6 +1,12 @@
 package com.ztx.study.base;
 
-public class Father {
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Father implements BeanPostProcessor, BeanNameAware {
 	
 	private int age;
 
@@ -19,6 +25,17 @@ public class Father {
 	}
 
 	public void method1() throws Exception{
+		
+	}
+	
+	@Override
+	public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+		System.out.println("postProcessAfterInitialization start.");
+		return bean;
+	}
+
+	@Override
+	public void setBeanName(String name) {
 		
 	}
 }

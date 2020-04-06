@@ -11,6 +11,9 @@ public class Test {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
 		Father father = (Father)ctx.getBean("test");
 		System.out.println(father);
+		
+		ThreadLocal<String> tl = new ThreadLocal<String>();
+		tl.set("aaa");
 	}
 
 }

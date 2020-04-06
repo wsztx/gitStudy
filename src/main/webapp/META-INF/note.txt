@@ -16,7 +16,7 @@
 3、创建型设计模式（5种）、结构型设计模式（7种）、行为型设计模式（11种）理解？
 
 异常
-1、java异常继承结构？
+1、java异常继承结构？java.util.ConurrentModificationException
 2、error和exception的区别？
 3、运行时异常和非运行时异常区别？
 4、final、finally、finalize的区别？
@@ -39,7 +39,10 @@ HashMap
 3、为什么要无符号右移16位后做异或运算？
 4、使用异或运算的原因？
 5、为什么槽位数必须使用2^n？
-6、
+6、HashMap原理？put实现？get实现？resize实现？
+7、ArrayList、HashMap、Hashtable扩容机制？
+8、ConcurrentHashMap原理？
+9、TreeMap原理？红黑树特性？
 
 多线程
 1、线程各种状态转换？
@@ -87,8 +90,7 @@ JVM
 15、CMS并发标记清除的4个步骤？优缺点？
 16、生产环境中如何选择垃圾收集器？
 17、G1收集器解释？底层原理？
-
-数据结构
+18、类的加载机制？双亲委派模型？
 
 volatile
 1、volatile是什么？
@@ -96,14 +98,12 @@ volatile
 3、volatile的作用描述（内存的可见性、禁止指令重排、不保证原子性）？
 4、如何解决volatile的原子性？
 5、单例模式下为什么使用volatile？
-
-CAS比较并交换
-1、CAS是什么？
-2、CAS底层原理？谈谈对UnSafe的理解？
-3、CAS的缺点？
-4、描述ABA问题？
-5、理解原子引用、带时间戳（版本号）的原子引用？
-6、解决ABA问题？
+6、CAS是什么？
+7、CAS底层原理？谈谈对UnSafe的理解？
+8、CAS的缺点？
+9、描述ABA问题？
+10、理解原子引用、带时间戳（版本号）的原子引用？
+11、解决ABA问题？
 
 Spring AOP
 1、什么是AOP，使用AOP有什么好处？
@@ -134,6 +134,8 @@ Spring
 10、Spring 框架中都用到了哪些设计模式？
 11、Spring事务的实现方式和实现原理？事物的隔离级别？MYSQL和ORACLE默认级别？传播属性？
 12、Spring框架中有哪些不同类型的事件？
+13、Spring事件监听机制？
+14、FactoryBean、BeanFactory、ObjectFactory区别？
 
 Spring MVC
 1、什么是Spring MVC？优点？
@@ -196,7 +198,7 @@ Mybatis
 5、模糊查询like语句该怎么写？
 6、通常一个Xml映射文件，都会写一个Dao接口与之对应，请问，这个Dao接口的工作原理是什么？Dao接口里的方法，参数不同时，方法能重载吗？
 7、Mapper接口的工作原理？
-8、Mybatis是如何进行分页的？分页插件的原理是什么？
+8、Mybatis是如何进行分页+ 的？分页插件的原理是什么？
 9、Mybatis是如何将sql执行结果封装为目标对象并返回的？都有哪些映射形式？
 10、Mybatis如何执行批量插入?
 11、Mybatis主键自增设置？
@@ -213,13 +215,23 @@ Mybatis
 22、Mapper编写有哪几种方式？
 23、简述Mybatis的插件运行原理，以及如何编写一个插件？ 
 
+webservice
+
 缓存
 
-MQ
+数据结构
+
+分布式
+
+消息中间件
+
+zookeeper
 
 HTTP、TCP/IP协议
 
 其他
+
+
 
 
 
