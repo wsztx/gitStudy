@@ -15,4 +15,6 @@
     <bean id="test" class="com.ztx.study.base.Father">
     	<property name="age" value="1"></property>
     </bean>
+    
+    
 </beans>
