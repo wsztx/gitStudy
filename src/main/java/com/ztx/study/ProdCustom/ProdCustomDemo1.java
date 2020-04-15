@@ -3,7 +3,7 @@ package com.ztx.study.ProdCustom;
 public class ProdCustomDemo1 {
 
 	public static void main(String args[]){
-		MyShareData d = new MyShareData();
+		final MyShareData d = new MyShareData();
 		Thread t1 = new Thread("生产1"){
 			@Override
 			public void run(){

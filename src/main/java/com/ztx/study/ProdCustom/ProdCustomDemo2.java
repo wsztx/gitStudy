@@ -5,7 +5,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class ProdCustomDemo2 {
 
 	public static void main(String args[]){
-		MyResource res = new MyResource(new ArrayBlockingQueue<>(10));
+		final MyResource res = new MyResource(new ArrayBlockingQueue<String>(10));
 		Thread thread1 = new Thread("Product"){
 			@Override
 			public void run(){

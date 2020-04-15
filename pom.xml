@@ -3,7 +3,19 @@
   <groupId>com.ztx</groupId>
   <artifactId>study</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>GitStudy</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <name>GitStudy</name>
   
     <dependencies>
     <!-- Spring的面向切面编程,提供AOP(面向切面编程)实现 -->
@@ -113,11 +125,11 @@
 		<artifactId>xbean-spring</artifactId>
 		<version>3.16</version>
 	</dependency>
-	<dependency>
+<!--	<dependency>
 		<groupId>com.fasterxml.jackson.core</groupId>
 		<artifactId>jackson-databind</artifactId>
 		<version>2.9.5</version>
-	</dependency>
+	</dependency>-->
 	    <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jms</artifactId>

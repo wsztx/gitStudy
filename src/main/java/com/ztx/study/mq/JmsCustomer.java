@@ -17,6 +17,7 @@ public class JmsCustomer {
 
 	public static final String ACTIVEMQ_URL = "tcp://127.0.0.1:61616";
 	public static final String QUEUE_NAME = "queue001";
+	public static final String TOPIC_NAME = "topic001";
 	
 	public static void main(String[] args) throws JMSException, IOException {
 		ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory("admin", "admin", ACTIVEMQ_URL);
